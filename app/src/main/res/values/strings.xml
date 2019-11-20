@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Lista de Compras App</string>
+    <string name="btnLoginText">Entrar</string>
+    <string name="btnNovoText">CADASTRAR</string>
+    <string name="editLoginHint">Digite seu usuário.</string>
+    <string name="editSenhaHint">Digite sua senha.</string>
+    <string name="btnCadastro">CADASTRAR</string>
+    <string name="editNomeUsuarioHint">Digite seu nome.</string>
+    <string name="editLoginUsuarioHint">Digite seu e-mail.</string>
+    <string name="editSenha1Hint">Digite sua senha.</string>
+    <string name="editSenha2Hint">Repita a senha.</string>
+    <string name="btnLogoutText">Sair</string>
+    <string name="btnIrListaLivros">Lista Livros</string>
+
+    <string-array name="generos_array">
+        <item>Ação</item>
+        <item>Comédia</item>
+        <item>Romance</item>
+        <item>Terror</item>
+        <item>Animação</item>
+        <item>Ficção</item>
+        <item>Fantasia</item>
+    </string-array>
+    <string-array name="opcoes">
+        <item>Remover</item>
+        <item>Atualizar</item>
+        <item>Cancelar</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.listadecomprasapp.activity.AtualizarLivroActivity">
+
+    <EditText
+        android:id="@+id/editTitulo"
+        android:hint="Titulo do Livro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Gênero:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:id="@+id/spinnerGenero"
+        android:entries="@array/generos_array"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+    <EditText
+        android:id="@+id/editAno"
+        android:inputType="number"
+        android:hint="Ano de Produção"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RatingBar
+        android:layout_gravity="center"
+        android:id="@+id/ratingNotaLivro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Salvar"
+        android:onClick="atualizarLivro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
